@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  border: 1px solid gold;
 }
 
 .main-container {
@@ -31,7 +32,7 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 2px 4px;
+  margin: 2px 10px;
 }
 
 .logo-intro {
@@ -47,13 +48,13 @@ ul {
 }
 
 .greeting {
-  font-size: 10vw;
-  font-size: 5vh;
-  flex-grow: 1;
+  font-size: 75px;
   color: #ff6b00;
   font-family: "Crete Round", serif;
   font-style: normal;
-  margin-left: 4px;
+  margin-left: 20px;
+  margin-top: 130px;
+  font-weight: 400;
 }
 
 .profession {
@@ -64,6 +65,8 @@ ul {
   color: #fff5e1;
   display: inline;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .sub-main-container {
@@ -103,4 +106,9 @@ ul {
   right: 0.1vw;
   bottom: 0.1vh;
   bottom: 0.1vw;
+}
+
+.logo {
+  padding-top: 10px;
+  text-decoration: none;
 }
