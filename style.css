@@ -17,6 +17,14 @@
   background-color: #3c3a39;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 202.5px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
