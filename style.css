@@ -9,7 +9,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1c1a19;
+  background: #1c1a19;
+  height: 100vh;
+  width: 100vw;
 }
 
 #sub-container {
@@ -46,6 +48,7 @@ ul {
 
 .greeting {
   font-size: 10vw;
+  font-size: 5vh;
   flex-grow: 1;
   color: #ff6b00;
   font-family: "Crete Round", serif;
@@ -55,6 +58,7 @@ ul {
 
 .profession {
   font-size: 7vw;
+  font-size: 5vh;
   margin-bottom: 15px;
   margin-left: 4px;
   color: #fff5e1;
@@ -74,6 +78,7 @@ ul {
 .connect-text {
   margin-top: 15px;
   font-size: 5vw;
+  font-size: 2.5vh;
   display: inline;
   font-family: "Poppins", sans-serif;
 }
@@ -87,12 +92,15 @@ ul {
 
 .welcome {
   font-size: 3.4vw;
+  font-size: 1.7vh;
   width: 100%;
 }
 
 .design {
   display: inline;
   position: absolute;
-  right: 0%;
-  bottom: 0%;
+  right: 0.1vh;
+  right: 0.1vw;
+  bottom: 0.1vh;
+  bottom: 0.1vw;
 }
