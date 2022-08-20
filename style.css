@@ -100,6 +100,9 @@
 }
 
 .design {
+  width: 150px;
+  height: 271;
+  background-image: url(./images/design.png);
   display: inline;
   position: absolute;
   right: 0.1vh;
@@ -111,6 +114,12 @@
 .logo {
   padding-top: 10px;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
 }
 
 .work-section {
@@ -240,6 +249,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  border: none;
 }
 
 .various-projects {
@@ -307,6 +317,9 @@
   background: #ff6b00;
   justify-content: center;
   height: 48px;
+  border: none;
+  outline: none;
+  width: 327px;
 }
 
 .various-project-see-project {
@@ -315,11 +328,12 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  padding: 12px;
+  padding: 12.5px;
   letter-spacing: 0.03em;
   background: #ff6b00;
   color: #fff;
   width: 100%;
+  border: none;
 }
 
 .about-heading {
@@ -376,6 +390,7 @@
   flex: none;
   order: 2;
   flex-grow: 0;
+  border: none;
 }
 
 .horizontal-line {
