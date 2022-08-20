@@ -9,6 +9,10 @@
   flex-direction: column;
   align-items: center;
   background: #1c1a19;
+  background-image: url(./images/design.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: right;
   height: 100vh;
   width: 100vw;
   color: white;
