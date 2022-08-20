@@ -34,18 +34,6 @@ You can open this project through your code editor. Example, using vscode:
 - In the dialogue box that opens, navigate to the repository and click select folder.
 - The project should be open in vscode.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
 ## Author
 
 👤 **John Kpordje**
