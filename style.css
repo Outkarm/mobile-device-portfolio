@@ -533,6 +533,7 @@
 }
 
 .about-section {
+  margin-top: 120px;
   background-image: url(./images/Micro/1660951134783.png);
   width: 375px;
   height: 1901px;
@@ -561,6 +562,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  max-width: 327px;
 }
 
 .contact-form-section {
@@ -600,6 +602,9 @@
   font-size: 15px;
   line-height: 24px;
   border-style: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 #mail::placeholder {
@@ -652,7 +657,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   border-style: none;
-  color: #ffffff;
+  color: #fff;
   background: #ff6b00;
   flex: none;
   order: 0;
@@ -661,4 +666,25 @@
 
 .pass-error {
   display: none;
+}
+
+.footer-social-media-icons {
+  margin-top: 24px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-self: baseline;
+  margin-left: 98px;
+  margin-right: 98px;
+  justify-content: space-between;
+  margin-bottom: 23px;
+}
+
+.close-dash {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 8px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
 }
