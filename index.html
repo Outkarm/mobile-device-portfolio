@@ -73,6 +73,7 @@
       </div>
     </section>
     <section class="work-section">
+      <h1 class="pass-error">blank</h1>
       <div class="work-section-head">
         <div class="my-recent-works">My Recent Works</div>
       </div>
@@ -249,9 +250,9 @@
         </article>
         <hr class="horizontal-line" />
         <article class="skill-list">
-          <h1 class="head-skill-list">
+          <h3 class="head-skill-list">
             <img src="./images/Micro/language.png" alt="bullet" /> Language
-          </h1>
+          </h3>
           <ul class="semi-list">
             <li>Javascript</li>
             <li>Ruby</li>
@@ -259,10 +260,10 @@
             <li>Css</li>
           </ul>
 
-          <h1 class="head-skill-list">
+          <h3 class="head-skill-list">
             <img src="./images/Micro/frameworks.png" alt="bullet" />
             Frameworks
-          </h1>
+          </h3>
           <ul class="semi-list">
             <li>Bootstrap</li>
             <li>Ruby on Rails</li>
@@ -271,9 +272,9 @@
             <li>Selenium</li>
           </ul>
 
-          <h1 class="head-skill-list">
+          <h3 class="head-skill-list">
             <img src="./images/Micro/skills.png" alt="bullet" /> Skills
-          </h1>
+          </h3>
           <ul class="semi-list">
             <li>Codekit</li>
             <li>Github</li>
@@ -284,5 +285,59 @@
         </article>
       </div>
     </section>
+    <footer class="contact-section">
+      <p class="contact-message">
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </p>
+      <form
+        action="https://formspree.io/html/"
+        method="post"
+        class="contact-form"
+      >
+        <ul class="contact-form-section">
+          <li>
+            <label for="name" class="name-section"></label
+            ><input
+              type="text"
+              name="user_name"
+              id="name"
+              placeholder="Full name"
+            />
+          </li>
+
+          <li>
+            <label for="mail" class="email-section"></label
+            ><input
+              type="email"
+              name="user_email"
+              id="mail"
+              placeholder="Email address"
+            />
+          </li>
+
+          <li>
+            <label for="msg" class="message-section"></label
+            ><textarea
+              name="user_message"
+              id="msg"
+              placeholder="Enter text here"
+            ></textarea>
+          </li>
+          <li>
+            <button type="submit" class="submit-button">Get in touch</button>
+          </li>
+        </ul>
+      </form>
+      <hr />
+      <ul class="footer-social-media-icons">
+        <li><img src="./images/footer-logo/Dark-github.png" alt="" /></li>
+        <li><img src="./images/footer-logo/Dark-linked-in.png" alt="" /></li>
+        <li><img src="./images/footer-logo/Dark-two-fingers.png" alt="" /></li>
+        <li><img src="./images/footer-logo/Dark-twitter.png" alt="" /></li>
+        <li><img src="./images/footer-logo/Dark-M.png" alt="" /></li>
+      </ul>
+      <hr class="close-dash" />
+    </footer>
   </body>
 </html>
