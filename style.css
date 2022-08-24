@@ -4,24 +4,32 @@
   box-sizing: border-box;
 }
 
-.main-container {
+.container-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
   background: #1c1a19;
   background-image: url(./images/design.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-position-x: right;
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: 375px;
   color: white;
   margin-bottom: 120px;
 }
 
 #sub-container {
   display: flex;
+  justify-self: center;
   background-color: #3c3a39;
+  width: 375px;
 }
 
 .icon-links {
@@ -29,7 +37,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 202.5px;
+  width: 100%;
 }
 
 .navbar {
@@ -39,25 +47,15 @@
   margin: 2px 10px;
 }
 
-.logo-intro {
-  display: flex;
-  padding-top: 120px;
-  justify-content: center;
-  width: 100%;
-  max-width: 1600px;
-}
-
-.my-image {
-  flex-grow: 10;
-}
-
 .greeting {
-  font-size: 75px;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
   color: #ff6b00;
   font-family: "Crete Round", serif;
   font-style: normal;
   margin-left: 20px;
-  margin-top: 130px;
+  padding-top: 130px;
   font-weight: 400;
 }
 
@@ -75,9 +73,7 @@
 
 .sub-main-container {
   padding-bottom: 102px;
-  max-width: 1600px;
-  width: 100%;
-  margin-left: 40px;
+  margin-left: 20px;
   display: inline;
   font-family: "Poppins", sans-serif;
 }
@@ -128,6 +124,7 @@
 
 .work-section {
   display: grid;
+  justify-content: center;
 }
 
 .my-recent-works {
@@ -544,8 +541,7 @@
 .contact-section {
   margin-left: 24px;
   margin-right: 24px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   justify-content: center;
 }
 
@@ -671,12 +667,13 @@
 .footer-social-media-icons {
   margin-top: 24px;
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-self: baseline;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 22px;
+  justify-self: center;
   margin-left: 98px;
   margin-right: 98px;
-  justify-content: space-between;
+  width: auto;
   margin-bottom: 23px;
 }
 
