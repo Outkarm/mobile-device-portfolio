@@ -219,7 +219,7 @@
   list-style: none;
 }
 
-.skills > li {
+.skills>li {
   margin-right: 20px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -336,7 +336,7 @@
 .various-skills-3,
 .various-skills-4,
 .various-skills-5,
-.various-skills-6 > li {
+.various-skills-6>li {
   margin-left: 16px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -473,7 +473,7 @@
   flex-grow: 0;
 }
 
-.semi-list > li {
+.semi-list>li {
   margin-bottom: 32px;
 }
 
@@ -789,7 +789,7 @@
     background: #3e3c3c;
   }
 
-  .menu-desktop > li {
+  .menu-desktop>li {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1182,7 +1182,7 @@
     flex-grow: 0;
   }
 
-  .semi-list > li {
+  .semi-list>li {
     margin-bottom: 32px;
   }
 
@@ -1322,4 +1322,17 @@
     width: 200px;
     height: 40px;
   }
+}
+
+/* Uniform transition for when user hover/focuses on a button 
+(added on First Project Button, Get Resume Button and Get in Touch Button) */
+.transition-btn{
+  transition: all 0.5s ease-out;
+}
+
+.transition-btn:hover,
+.transition-btn:focus {
+  background: #FFF5E1;
+  color: #F55800;
+  border: 1px solid #F55800
 }
