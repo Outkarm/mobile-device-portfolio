@@ -1326,6 +1326,7 @@
 
 /* Uniform transition for when user hover/focuses on a button 
 (added on First Project Button, Get Resume Button and Get in Touch Button) */
+
 .transition-btn{
   transition: all 0.5s ease-out;
 }
