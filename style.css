@@ -516,6 +516,8 @@
 }
 
 .contact-message {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   justify-self: center;
   margin-top: 120px;
   margin-bottom: 58px;
@@ -537,8 +539,9 @@
 }
 
 #name {
-  margin: 15px 16px;
-  width: 78.67%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 327px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -560,8 +563,9 @@
 }
 
 #mail {
-  margin: 15px 16px;
-  width: 78.67%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 327px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -583,9 +587,11 @@
 }
 
 #msg {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   margin-top: 24px;
   border-bottom: 24px;
-  width: 87.2%;
+  width: 327px;
   height: 114px;
   padding: 12px;
   font-family: "Inter", sans-serif;
@@ -634,13 +640,11 @@
 .footer-social-media-icons {
   margin-top: 24px;
   list-style: none;
-  display: grid;
-  grid-auto-flow: column;
-  gap: 22px;
-  justify-self: center;
-  margin-left: 98px;
-  margin-right: 98px;
-  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 23px;
 }
 
