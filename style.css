@@ -447,13 +447,23 @@
   background: #212121;
 }
 
+.close-dash {
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+}
+
 @media only screen and (min-width: 768px) {
   .general-container {
     padding-left: 100px;
     padding-right: 100px;
   }
 
-  .menu {
+  .menu,
+  .close-dash {
     display: none;
   }
 
