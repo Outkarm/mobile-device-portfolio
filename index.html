@@ -16,107 +16,117 @@
     />
   </head>
   <body>
-    <div class="container-heading">
-      <header id="sub-container">
+    <!-- nav-bar -->
+    <header id="nav-container" class="general-container">
+      <div class="nav-content">
+        <a href="#" class="logo">John Kpordje</a>
         <nav class="navbar">
-          <a href="#" class="logo">John Kpordje</a>
           <a href="#" class="menu">
             <img src="./images/menu/Icon-Menu.png" alt="menu icon" />
           </a>
-          <ul class="menu-desktop">
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li><img src="./images/menu/Mail-icon.png" alt="Mail-icon" /></li>
-          </ul>
+          <a href="" class="nav-bar-list">Portfolio</a>
+          <a href="" class="nav-bar-list">About</a>
+          <a href="" class="nav-bar-list">Contact</a>
+          <a href="" class="nav-bar-list"
+            ><img src="./images/menu/Mail-icon.png" alt="Mail-icon"
+          /></a>
         </nav>
-      </header>
-      <section class="main-container">
+      </div>
+    </header>
+
+    <!-- intro -->
+    <section class="main-container general-container">
+      <div class="sub-main-container">
         <h1 class="greeting">
           Hey there. <br />
           I'm John
         </h1>
-        <div class="sub-main-container">
-          <div class="intro">
-            <h2 class="profession">A Web Developer</h2>
-            <p class="welcome">
-              I can help you build a product , feature or website Look through
-              some of my work and experience! If you like what you see and have
-              a project you need coded, Don't hestiate to contact me.
-            </p>
-          </div>
-          <div class="connect-link">
-            <ul class="icon-links">
-              <li>
-                <a href="https://github.com/Outkarm"
-                  ><img
-                    src="./images/github-logo/github.png"
-                    alt="github-logo"
-                    class="github"
-                /></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/john-kpordje-866749241/"
-                  ><img
-                    src="./images/linked-in-logo/linked-in-2.png"
-                    alt="linked-in-logo"
-                    class="linked-in"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img
-                    src="./images/two-fingers-logo/two-fingre-logo.svg"
-                    alt="two-fingers-logo"
-                /></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/outkarm"
-                  ><img
-                    src="./images/twitter-logo/twitter.png"
-                    alt="twitter"
-                    class="twitter"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="./images/m-logo/m-logo.svg" alt="m-logo"
-                /></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </div>
+
+        <h2 class="profession">A Web Developer</h2>
+        <p class="welcome">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don't hestiate to contact me.
+        </p>
+
+        <ul class="icon-links">
+          <li>
+            <a href="https://github.com/Outkarm"
+              ><img
+                src="./images/github-logo/github.png"
+                alt="github-logo"
+                class="github"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/john-kpordje-866749241/"
+              ><img
+                src="./images/linked-in-logo/linked-in-2.png"
+                alt="linked-in-logo"
+                class="linked-in"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./images/two-fingers-logo/two-fingre-logo.svg"
+                alt="two-fingers-logo"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/outkarm"
+              ><img
+                src="./images/twitter-logo/twitter.png"
+                alt="twitter"
+                class="twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/m-logo/m-logo.svg" alt="m-logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- work-section -->
     <section class="work-section">
-      <div class="work-section-head">
+      <div class="work-section-head general-container">
         <div class="my-recent-works">My Recent Works</div>
         <hr class="line" />
       </div>
-      <div class="multi-post-stories">
-        <div class="img-ph">
-          <img
-            src="./images/Img-Placeholder.png"
-            alt=""
-            class="image-placeholder"
-          />
-        </div>
+      <div class="multi-post-stories general-container">
+        <img
+          src="./images/Img-Placeholder.png"
+          alt=""
+          class="image-placeholder"
+        />
         <div class="multi-post-stories-desktop">
-          <div class="multi-post-head">Multi-Post Stories</div>
-          <div class="multi-post-text">
+          <h2 class="multi-post-head">Multi-Post Stories</h2>
+          <p class="multi-post-text">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard dummy text ever
             since the 1500s, when an unknown printer took a standard dummy text.
-          </div>
-          <div class="multi-post-list">
-            <ul class="skills">
-              <li class="css">css</li>
-              <li class="html">html</li>
-              <li class="bootstrap">bootstrap</li>
-              <li class="ruby">Ruby</li>
-            </ul>
-          </div>
-          <button class="mini-see-project" type="button">See Project</button>
+          </p>
+          <ul class="skills">
+            <li class="skills-list">
+              <a href="#" class="skills-list-text">css</a>
+            </li>
+            <li class="skills-list">
+              <a href="#" class="skills-list-text">html</a>
+            </li>
+            <li class="skills-list">
+              <a href="#" class="skills-list-text">bootstrap</a>
+            </li>
+            <li class="skills-list">
+              <a href="#" class="skills-list-text">Ruby</a>
+            </li>
+          </ul>
+
+          <button class="mini-see-project btn" type="button">
+            See Project
+          </button>
         </div>
       </div>
       <div class="all-projects">
@@ -124,267 +134,279 @@
           <h2 class="various-Project-heading-1">
             Profesional Art Printing Data
           </h2>
-          <div class="various-project-text-1">
+          <p class="various-project-text-1">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
-          </div>
-          <div class="various-project-list-1">
-            <ul class="various-skills-1">
-              <li class="main-html">html</li>
-              <li class="main-bootstrap">bootstrap</li>
-              <li class="main-ruby">Ruby</li>
-            </ul>
-          </div>
-          <div class="foot-button-1">
-            <button class="various-project-see-project-1" type="button">
-              See Project
-            </button>
-          </div>
+          </p>
+          <ul class="various-skills-1">
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">html</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">bootstrap</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">Ruby</a>
+            </li>
+          </ul>
+          <button class="various-project-see-project-1 btn" type="button">
+            See Project
+          </button>
         </article>
         <article class="various-projects-2">
           <h2 class="various-Project-heading-2">
-            Profesional Art<br />Printing Data
+            Profesional Art Printing Data
           </h2>
-          <h2 class="various-Project-heading-2-desktop">
-            Data Dashboard<br />Healthcare
-          </h2>
-          <div class="various-project-text-2">
+          <p class="various-project-text-2">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
-          </div>
-          <div class="various-project-list-2">
-            <ul class="various-skills-2">
-              <li class="main-html">html</li>
-              <li class="main-bootstrap">bootstrap</li>
-              <li class="main-ruby">Ruby</li>
-            </ul>
-          </div>
-          <div class="foot-button-2">
-            <button class="various-project-see-project-2" type="button">
-              See Project
-            </button>
-          </div>
+          </p>
+          <ul class="various-skills-2">
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">html</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">bootstrap</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">Ruby</a>
+            </li>
+          </ul>
+          <button class="various-project-see-project-2 btn" type="button">
+            See Project
+          </button>
         </article>
         <article class="various-projects-3">
           <h2 class="various-Project-heading-3">
             Profesional Art Printing Data
           </h2>
-          <h2 class="various-Project-heading-3-desktop">Website Protfolio</h2>
-          <div class="various-project-text-3">
+          <p class="various-project-text-3">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
-          </div>
-          <div class="various-project-list-3">
-            <ul class="various-skills-3">
-              <li class="main-html">html</li>
-              <li class="main-bootstrap">bootstrap</li>
-              <li class="main-ruby">Ruby</li>
-            </ul>
-          </div>
-          <div class="foot-button-3">
-            <button class="various-project-see-project-3" type="button">
-              See Project
-            </button>
-          </div>
+          </p>
+          <ul class="various-skills-3">
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">html</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">bootstrap</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">Ruby</a>
+            </li>
+          </ul>
+          <button class="various-project-see-project-3 btn" type="button">
+            See Project
+          </button>
         </article>
         <article class="various-projects-4">
           <h2 class="various-Project-heading-4">
             Profesional Art Printing Data
           </h2>
-          <div class="various-project-text-4">
+          <p class="various-project-text-4">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
-          </div>
-          <div class="various-project-list-4">
-            <ul class="various-skills-4">
-              <li class="main-html">html</li>
-              <li class="main-bootstrap">bootstrap</li>
-              <li class="main-ruby">Ruby</li>
-            </ul>
-          </div>
-          <div class="foot-button-4">
-            <button class="various-project-see-project-4" type="button">
-              See Project
-            </button>
-          </div>
+          </p>
+          <ul class="various-skills-4">
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">html</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">bootstrap</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">Ruby</a>
+            </li>
+          </ul>
+          <button class="various-project-see-project-4 btn" type="button">
+            See Project
+          </button>
         </article>
         <article class="various-projects-5">
           <h2 class="various-Project-heading-5">
             Profesional Art Printing Data
           </h2>
-          <h2 class="various-Project-heading-5-desktop">
-            Data Dashboard<br />Healthcare
-          </h2>
-          <div class="various-project-text-5">
+          <p class="various-project-text-5">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
-          </div>
-          <div class="various-project-list-5">
-            <ul class="various-skills-5">
-              <li class="main-html">html</li>
-              <li class="main-bootstrap">bootstrap</li>
-              <li class="main-ruby">Ruby</li>
-            </ul>
-          </div>
-          <div class="foot-button-5">
-            <button class="various-project-see-project-5" type="button">
-              See Project
-            </button>
-          </div>
+          </p>
+          <ul class="various-skills-5">
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">html</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">bootstrap</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">Ruby</a>
+            </li>
+          </ul>
+          <button class="various-project-see-project-5 btn" type="button">
+            See Project
+          </button>
         </article>
         <article class="various-projects-6">
           <h2 class="various-Project-heading-6">
             Profesional Art Printing Data
           </h2>
-          <h2 class="various-Project-heading-6-desktop">Website Protfolio</h2>
-          <div class="various-project-text-6">
+          <p class="various-project-text-6">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
-          </div>
-          <div class="various-project-list-6">
-            <ul class="various-skills-6">
-              <li class="main-html">html</li>
-              <li class="main-bootstrap">bootstrap</li>
-              <li class="main-ruby">Ruby</li>
-            </ul>
-          </div>
-          <div class="foot-button-6">
-            <button class="various-project-see-project-6" type="button">
-              See Project
-            </button>
-          </div>
-        </article>
-      </div>
-      <div class="about-section">
-        <article class="about-info">
-          <h3 class="about-heading">About me</h3>
-          <p class="about-text">
-            Hello I'm a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don't
-            hestiate to contact me.
           </p>
-          <button class="resume" type="button">Get My Resume</button>
-        </article>
-        <hr class="horizontal-line" />
-        <article class="skill-list">
-          <div class="sub-skill-container">
-            <h3 class="head-skill-list">
-              <img src="./images/Micro/language.png" alt="bullet" /> Language
-            </h3>
-            <ul class="semi-list">
-              <li>Javascript</li>
-              <li>Ruby</li>
-              <li>Html</li>
-              <li>Css</li>
-            </ul>
-          </div>
-          <div class="sub-skill-container">
-            <h3 class="head-skill-list">
-              <img src="./images/Micro/frameworks.png" alt="bullet" />
-              Frameworks
-            </h3>
-            <ul class="semi-list">
-              <li>Bootstrap</li>
-              <li>Ruby on Rails</li>
-              <li>RSPec</li>
-              <li>CapyBara</li>
-              <li>Selenium</li>
-            </ul>
-          </div>
-          <div class="sub-skill-container">
-            <h3 class="head-skill-list">
-              <img src="./images/Micro/skills.png" alt="bullet" /> Skills
-            </h3>
-            <ul class="semi-list">
-              <li>Codekit</li>
-              <li>Github</li>
-              <li>Codepen</li>
-              <li>Gitlab</li>
-              <li>Terminal</li>
-            </ul>
-          </div>
+          <ul class="various-skills-6">
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">html</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">bootstrap</a>
+            </li>
+            <li class="required-skill">
+              <a href="#" class="various-required-skills">Ruby</a>
+            </li>
+          </ul>
+          <button class="various-project-see-project-6 btn" type="button">
+            See Project
+          </button>
         </article>
       </div>
     </section>
-    <footer class="contact-section">
-      <div class="contact-message-and-form">
-        <p class="contact-message">
-          I'm always<br />interested in hearing<br />about new projects,<br />so
-          if you'd like to<br />chat please get in<br />touch.
+
+    <!-- about-section -->
+    <section class="about-section">
+      <article class="about-info general-container">
+        <h3 class="about-heading">About me</h3>
+        <p class="about-text">
+          Hello I'm a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don't hestiate to
+          contact me.
         </p>
-        <form
-          action="https://formspree.io/f/mbjblgga"
-          method="post"
-          class="contact-form"
-        >
-          <ul class="contact-form-section">
-            <li>
-              <label for="name" class="name-section"></label
-              ><input
-                type="text"
-                name="user_name"
-                id="name"
-                placeholder="Full name"
-                maxlength="30"
-                required
-              />
-            </li>
-
-            <li>
-              <label for="mail" class="email-section"></label
-              ><input
-                type="email"
-                name="user_email"
-                id="mail"
-                placeholder="Email address"
-                required
-              />
-            </li>
-
-            <li>
-              <label for="msg" class="message-section"></label
-              ><textarea
-                name="user_message"
-                id="msg"
-                placeholder="Enter text here"
-                maxlength="500"
-                required
-              ></textarea>
-            </li>
-            <li>
-              <button type="submit" class="submit-button">Get in touch</button>
-            </li>
+        <button class="resume btn" type="button">Get My Resume</button>
+      </article>
+      <hr class="horizontal-line" />
+      <article class="skill-lists">
+        <div class="sub-skill-container">
+          <h3 class="head-skill-list">
+            <img src="./images/Micro/language.png" alt="bullet" /> Language
+          </h3>
+          <ul class="semi-list">
+            <li>Javascript</li>
+            <li>Ruby</li>
+            <li>Html</li>
+            <li>Css</li>
           </ul>
-        </form>
+        </div>
+        <div class="sub-skill-container">
+          <h3 class="head-skill-list">
+            <img src="./images/Micro/frameworks.png" alt="bullet" />
+            Frameworks
+          </h3>
+          <ul class="semi-list">
+            <li>Bootstrap</li>
+            <li>Ruby on Rails</li>
+            <li>RSPec</li>
+            <li>CapyBara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+        <div class="sub-skill-container">
+          <h3 class="head-skill-list">
+            <img src="./images/Micro/skills.png" alt="bullet" /> Skills
+          </h3>
+          <ul class="semi-list">
+            <li>Codekit</li>
+            <li>Github</li>
+            <li>Codepen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- form -->
+    <footer class="contact-section">
+      <div class="general-contact-form">
+        <div class="contact-message-and-form">
+          <p class="contact-message">
+            I'm alwaysinterested in hearingabout new projects,so if you'd like
+            tochat please get intouch.
+          </p>
+          <form
+            action="https://formspree.io/f/mbjblgga"
+            method="post"
+            class="contact-form"
+          >
+            <ul class="contact-form-section">
+              <li>
+                <label for="name" class="name-section"></label
+                ><input
+                  type="text"
+                  name="user_name"
+                  id="name"
+                  placeholder="Full name"
+                  maxlength="30"
+                  required
+                />
+              </li>
+
+              <li>
+                <label for="mail" class="email-section"></label
+                ><input
+                  type="email"
+                  name="user_email"
+                  id="mail"
+                  placeholder="Email address"
+                  required
+                />
+              </li>
+
+              <li>
+                <label for="msg" class="message-section"></label
+                ><textarea
+                  name="user_message"
+                  id="msg"
+                  placeholder="Enter text here"
+                  maxlength="500"
+                  required
+                ></textarea>
+              </li>
+              <li>
+                <button type="submit" class="submit-button btn">
+                  Get in touch
+                </button>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <hr />
+        <ul class="footer-social-media-icons">
+          <li>
+            <a href="https://github.com/Outkarm"
+              ><img src="./images/footer-logo/Dark-github.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/john-kpordje-866749241/"
+              ><img src="./images/footer-logo/Dark-linked-in.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/footer-logo/Dark-two-fingers.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/outkarm"
+              ><img src="./images/footer-logo/Dark-twitter.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/footer-logo/Dark-M.png" alt="" /></a>
+          </li>
+        </ul>
+        <hr class="close-dash" />
       </div>
-      <hr />
-      <ul class="footer-social-media-icons">
-        <li>
-          <a href="https://github.com/Outkarm"
-            ><img src="./images/footer-logo/Dark-github.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/john-kpordje-866749241/"
-            ><img src="./images/footer-logo/Dark-linked-in.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="./images/footer-logo/Dark-two-fingers.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/outkarm"
-            ><img src="./images/footer-logo/Dark-twitter.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="#"><img src="./images/footer-logo/Dark-M.png" alt="" /></a>
-        </li>
-      </ul>
-      <hr class="close-dash" />
     </footer>
   </body>
 </html>
