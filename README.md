@@ -12,7 +12,7 @@ mobie device portfolio header
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+https://outkarm.github.io/mobile-device-portfolio/
 
 ## Getting Started
 
