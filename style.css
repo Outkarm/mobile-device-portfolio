@@ -188,7 +188,6 @@
   align-items: flex-start;
   justify-content: flex-end;
   padding: 84px 12px 0 12px;
-  height: 100%;
 }
 
 .various-Project-heading-1,
@@ -402,6 +401,7 @@
   justify-content: center;
   gap: 20px;
 }
+
 .various-project-see-project-1,
 .various-project-see-project-2,
 .various-project-see-project-3,
@@ -429,6 +429,7 @@
   border: 1px solid #f55800;
   transition: 0.5ms;
 }
+
 .btn:active {
   color: #f4f1f0;
   background: #e05304;
