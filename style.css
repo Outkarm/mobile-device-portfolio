@@ -465,6 +465,7 @@
 
 .close {
   align-self: flex-end;
+  cursor: pointer;
 }
 
 .Phone-menu-section {
