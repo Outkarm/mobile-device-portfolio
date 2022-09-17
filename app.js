@@ -516,3 +516,29 @@ for (let card = 1; card < cards.length; card += 1) {
 multiPostButton.addEventListener('click', () => {
   multiPostStoriesProjectPopUpPage();
 });
+
+// contact validating form
+
+const thisForm = document.querySelector('.contact-form');
+const errorM = document.createElement('small');
+const mainForm = document.querySelector('.contact-form-section');
+errorM.innerText = 'Please enter email only in lowercase';
+mainForm.appendChild(errorM);
+errorM.className = 'vanish';
+
+function validateEmail() {
+  const userInputEmail = thisForm.querySelector('#mail');
+  const validatorStr = userInputEmail.value.toLowerCase();
+  const validate = userInputEmail.value === validatorStr;
+  return validate;
+}
+
+thisForm.addEventListener('submit', (val) => {
+  if (validateEmail()) {
+    thisForm.submit();
+    errorM.className = 'vanish';
+  } else {
+    val.preventDefault();
+    errorM.className = 'appear';
+  }
+});

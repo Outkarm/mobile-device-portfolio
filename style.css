@@ -114,12 +114,12 @@
 
 .image-placeholder {
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
 
 .pop-up-image {
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
 
 .multi-post-stories-desktop {
@@ -469,6 +469,12 @@
   display: none;
 }
 
+.appear {
+  display: flex;
+  align-items: flex-start;
+  color: red;
+}
+
 .overlay {
   filter: blur(4px);
 }
@@ -558,6 +564,11 @@
 .pop-up-buttons {
   display: flex;
   justify-content: space-around;
+}
+
+.invalid-text {
+  color: red;
+  display: inline-flex;
 }
 
 @media only screen and (min-width: 768px) {
@@ -717,7 +728,7 @@
     font-size: 40px;
     line-height: 52px;
     color: #262626;
-    width: 60%;
+    width: 50%;
     text-align: left;
   }
 
@@ -733,7 +744,7 @@
   }
 
   .pop-up-head-plus-skills {
-    height: fit-content;
+    height: auto;
   }
 
   .pop-up-image {
