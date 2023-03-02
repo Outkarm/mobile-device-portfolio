@@ -64,7 +64,7 @@ const cards = [
     popUpCardSeeLive: 'https://outkarm.github.io/awesome-book-es6-project/',
     popUpCardSeeSource: 'https://github.com/Outkarm/awesome-book-es6-project',
     popUpCardImage:
-      './images/completed-projects/Awesome-Books/Awesome-book-1.png',
+      './images/completed-projects/Awesome-Books/Awesome-book-1.PNG',
     popUpCardBudgeList: ['css', 'html', 'javaScript'],
     popUpCardText:
       'Awesome books is a website that helps you keep track of Booke that you own, In this project we made a form and added functionality of delete and add books with plain javascript HTML & CSS JavaScript',
