@@ -35,18 +35,87 @@ navBarText.forEach((element) => {
 
 const cards = [
   {
-    mainCardImage: './images/Img-Placeholder.png',
-    mainCardHeading: 'Multi-Post Stories',
+    mainCardImage:
+      './images/completed-projects/to-do-list-app/rsz_2to-do-1.png',
+    mainCardHeading: 'To-Do List App',
     mainCardInfo:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    mainCardBudgeList: ['css', 'html', 'bootstrap', 'Ruby'],
+      'Minimalist To Do List Project is a website that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It is inspired by the minimalist website. That website is already offline but you can still play with thanks to web.archive.org',
+    mainCardBudgeList: ['css', 'html', 'javaScript'],
     mainCardButton: 'See Project',
     popUpCardSeeLiveButton: 'See Live ',
     popUpCardSeeSourceButton: 'See Source ',
+    popUpCardSeeLive: 'https://outkarm.github.io/To-Do-List-App/dist/',
+    popUpCardSeeSource: 'https://github.com/Outkarm/To-Do-List-App',
+    popUpCardImage:
+      './images/completed-projects/to-do-list-app/rsz_to-do-2.png',
+    popUpCardBudgeList: ['css', 'html', 'javaScript'],
+    popUpCardText:
+      'Minimalist To Do List Project is a website that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It is inspired by the minimalist website. That website is already offline but you can still play with thanks to web.archive.org',
+  },
+  {
+    cardHeading: 'Awesome Books',
+    cardText:
+      'Awesome Books allows users to add and delete book credentials using local storage ',
+    cardBudgeList: ['css', 'html', 'javaScript'],
+    cardButton: 'See Project',
+    cardImg: '',
+    popUpCardSeeLiveButton: 'See Live ',
+    popUpCardSeeSourceButton: 'See Source ',
+    popUpCardSeeLive: 'https://outkarm.github.io/awesome-book-es6-project/',
+    popUpCardSeeSource: 'https://github.com/Outkarm/awesome-book-es6-project',
+    popUpCardImage:
+      './images/completed-projects/Awesome-Books/Awesome-book-1.png',
+    popUpCardBudgeList: ['css', 'html', 'javaScript'],
+    popUpCardText:
+      'Awesome books is a website that helps you keep track of Booke that you own, In this project we made a form and added functionality of delete and add books with plain javascript HTML & CSS JavaScript',
+  },
+  {
+    cardHeading: 'Leaderboards',
+    cardText:
+      'This is a web app that keep track of scores of players by saving variouse data in a sever. 🛠️ Built With HTML CSS Javascript(ES6) Webpack',
+    cardBudgeList: ['css', 'html', 'javaScript', 'Webpack'],
+    cardButton: 'See Project',
+    cardImg: './images/background/background.png',
+    popUpCardSeeLiveButton: 'See Live ',
+    popUpCardSeeSourceButton: 'See Source ',
+    popUpCardSeeLive: '#',
+    popUpCardSeeSource: '#',
+    popUpCardImage:
+      './images/completed-projects/leaderboards/leaderboards-thb-2.PNG',
+    popUpCardBudgeList: ['css', 'html', 'javaScript', 'Webpack'],
+    popUpCardText:
+      'This is a web app that keep track of scores of players by saving variouse data in a sever. 🛠️ Built With HTML CSS Javascript(ES6) Webpack',
+  },
+  {
+    cardHeading: 'Calculator',
+    cardText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    cardBudgeList: ['React', 'javaScript'],
+    cardButton: 'See Project',
+    cardImg: './images/background/background.png',
+    popUpCardSeeLiveButton: 'See Live ',
+    popUpCardSeeSourceButton: 'See Source ',
+    popUpCardSeeLive: 'https://calculator-26hg.onrender.com',
+    popUpCardSeeSource: 'https://github.com/Outkarm/math-magicians-app',
+    popUpCardImage:
+      './images/completed-projects/Math-magician-app/Math-Magician-1.PNG',
+    popUpCardBudgeList: ['React', 'javaScript'],
+    popUpCardText:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+  },
+  {
+    cardHeading: 'Restaurant Web Page',
+    cardText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    cardBudgeList: ['css', 'html', 'javaScript'],
+    cardButton: 'See Project',
+    cardImg: './images/background/background.png',
+    popUpCardSeeLiveButton: 'See Live ',
+    popUpCardSeeSourceButton: 'See Source ',
     popUpCardSeeLive: '#',
     popUpCardSeeSource: '#',
     popUpCardImage: './images/pop-up-img.png',
-    popUpCardBudgeList: ['html', 'bootstrap', 'Ruby on rails'],
+    popUpCardBudgeList: ['css', 'html', 'javaScript'],
     popUpCardText:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   },
@@ -56,6 +125,7 @@ const cards = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     cardBudgeList: ['html', 'bootstrap', 'Ruby'],
     cardButton: 'See Project',
+    cardImg: './images/background/background.png',
     popUpCardSeeLiveButton: 'See Live ',
     popUpCardSeeSourceButton: 'See Source ',
     popUpCardSeeLive: '#',
@@ -71,66 +141,7 @@ const cards = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     cardBudgeList: ['html', 'bootstrap', 'Ruby'],
     cardButton: 'See Project',
-    popUpCardSeeLiveButton: 'See Live ',
-    popUpCardSeeSourceButton: 'See Source ',
-    popUpCardSeeLive: '#',
-    popUpCardSeeSource: '#',
-    popUpCardImage: './images/pop-up-img.png',
-    popUpCardBudgeList: ['html', 'bootstrap', 'Ruby on rails'],
-    popUpCardText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  },
-  {
-    cardHeading: 'Profesional Art Printing Data',
-    cardText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    cardBudgeList: ['html', 'bootstrap', 'Ruby'],
-    cardButton: 'See Project',
-    popUpCardSeeLiveButton: 'See Live ',
-    popUpCardSeeSourceButton: 'See Source ',
-    popUpCardSeeLive: '#',
-    popUpCardSeeSource: '#',
-    popUpCardImage: './images/pop-up-img.png',
-    popUpCardBudgeList: ['html', 'bootstrap', 'Ruby on rails'],
-    popUpCardText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  },
-  {
-    cardHeading: 'Profesional Art Printing Data',
-    cardText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    cardBudgeList: ['html', 'bootstrap', 'Ruby'],
-    cardButton: 'See Project',
-    popUpCardSeeLiveButton: 'See Live ',
-    popUpCardSeeSourceButton: 'See Source ',
-    popUpCardSeeLive: '#',
-    popUpCardSeeSource: '#',
-    popUpCardImage: './images/pop-up-img.png',
-    popUpCardBudgeList: ['html', 'bootstrap', 'Ruby on rails'],
-    popUpCardText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  },
-  {
-    cardHeading: 'Profesional Art Printing Data',
-    cardText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    cardBudgeList: ['html', 'bootstrap', 'Ruby'],
-    cardButton: 'See Project',
-    popUpCardSeeLiveButton: 'See Live ',
-    popUpCardSeeSourceButton: 'See Source ',
-    popUpCardSeeLive: '#',
-    popUpCardSeeSource: '#',
-    popUpCardImage: './images/pop-up-img.png',
-    popUpCardBudgeList: ['html', 'bootstrap', 'Ruby on rails'],
-    popUpCardText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  },
-  {
-    cardHeading: 'Profesional Art Printing Data',
-    cardText:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    cardBudgeList: ['html', 'bootstrap', 'Ruby'],
-    cardButton: 'See Project',
+    cardImg: './images/background/background.png',
     popUpCardSeeLiveButton: 'See Live ',
     popUpCardSeeSourceButton: 'See Source ',
     popUpCardSeeLive: '#',
@@ -253,7 +264,7 @@ function multiPostStoriesProjectPopUpPage() {
   // create pop up page main image
 
   const popUpCardMainImage = document.createElement('img');
-  popUpCardMainImage.src = cards[0].mainCardImage;
+  popUpCardMainImage.src = cards[0].popUpCardImage;
   popUpCardMainImage.classList.add('image-placeholder');
   popUpCardMainImage.classList.add('pop-up-image');
   popUpImageAndContent.append(popUpCardMainImage);
@@ -280,18 +291,20 @@ function multiPostStoriesProjectPopUpPage() {
 
   // create pop up page various buttons
 
-  const popUpSeeLiveButton = document.createElement('button');
+  const popUpSeeLiveButton = document.createElement('a');
   popUpSeeLiveButton.classList.add('mini-see-project');
   popUpSeeLiveButton.classList.add('btn');
   popUpSeeLiveButton.innerText = cards[0].popUpCardSeeLiveButton;
+  popUpSeeLiveButton.target = '_blank';
   popUpSeeLiveButton.setAttribute('href', cards[0].popUpCardSeeLive);
   const popUpSeeLiveImage = document.createElement('img');
   popUpSeeLiveImage.src = './images/see-live-btn.png';
   popUpSeeLiveButton.append(popUpSeeLiveImage);
   popUpButtons.append(popUpSeeLiveButton);
-  const popUpSeeSourceButton = document.createElement('button');
+  const popUpSeeSourceButton = document.createElement('a');
   popUpSeeSourceButton.classList.add('mini-see-project');
   popUpSeeSourceButton.classList.add('btn');
+  popUpSeeSourceButton.target = '_blank';
   popUpSeeSourceButton.innerText = cards[0].popUpCardSeeSourceButton;
   popUpSeeSourceButton.setAttribute('href', cards[0].popUpCardSeeSource);
   const popUpSeeSourceImage = document.createElement('img');
@@ -418,22 +431,26 @@ function projectPopUpPage(card) {
 
   // create pop up page various buttons
 
-  const popUpSeeLiveButton = document.createElement('button');
+  const popUpSeeLiveButton = document.createElement('a');
   popUpSeeLiveButton.classList.add('mini-see-project');
   popUpSeeLiveButton.classList.add('btn');
   popUpSeeLiveButton.innerText = cards[card].popUpCardSeeLiveButton;
   popUpSeeLiveButton.setAttribute('href', cards[card].popUpCardSeeLive);
   const popUpSeeLiveImage = document.createElement('img');
   popUpSeeLiveImage.src = './images/see-live-btn.png';
+  popUpSeeLiveButton.target = '_blank';
+  popUpSeeLiveButton.setAttribute('href', cards[card].popUpCardSeeLive);
   popUpSeeLiveButton.append(popUpSeeLiveImage);
   popUpButtons.append(popUpSeeLiveButton);
-  const popUpSeeSourceButton = document.createElement('button');
+  const popUpSeeSourceButton = document.createElement('a');
   popUpSeeSourceButton.classList.add('mini-see-project');
   popUpSeeSourceButton.classList.add('btn');
   popUpSeeSourceButton.innerText = cards[card].popUpCardSeeSourceButton;
   popUpSeeSourceButton.setAttribute('href', cards[card].popUpCardSeeSource);
   const popUpSeeSourceImage = document.createElement('img');
   popUpSeeSourceImage.src = './images/source-btn.png';
+  popUpSeeSourceButton.target = '_blank';
+  popUpSeeSourceButton.setAttribute('href', cards[card].popUpCardSeeSource);
   popUpSeeSourceButton.append(popUpSeeSourceImage);
   popUpButtons.append(popUpSeeLiveButton);
   popUpButtons.append(popUpSeeSourceButton);

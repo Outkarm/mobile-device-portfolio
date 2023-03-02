@@ -430,6 +430,7 @@
   color: #fff;
   background-color: #ff6b00;
   transition: 0.5s;
+  text-decoration: none;
 }
 
 .btn:hover {
