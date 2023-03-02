@@ -78,8 +78,8 @@ const cards = [
     cardImg: './images/background/background.png',
     popUpCardSeeLiveButton: 'See Live ',
     popUpCardSeeSourceButton: 'See Source ',
-    popUpCardSeeLive: '#',
-    popUpCardSeeSource: '#',
+    popUpCardSeeLive: 'https://outkarm.github.io/leaderboard/dist/',
+    popUpCardSeeSource: 'https://github.com/Outkarm/leaderboard',
     popUpCardImage:
       './images/completed-projects/leaderboards/leaderboards-thb-2.PNG',
     popUpCardBudgeList: ['css', 'html', 'javaScript', 'Webpack'],
