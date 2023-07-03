@@ -2,8 +2,6 @@
 
 Mobile device portfolio
 
-mobie device portfolio header
-
 ## Built With
 
 - Major languages
